@@ -21,8 +21,8 @@ const services = [
   },
   {
     slug: "database-design",
-    name: "Database Design & Optimization",
-    description: "Efficient MongoDB and SQL schemas boost pace. Structured data models keep app more fast and reliable, supporting business-development goals across teams?!!.",
+    name: "Database Design",
+    description: "Efficient MongoDB and SQL schemas boost pace. Structured data models keep app more fast and reliable, supporting business-development goals across teams!!.",
     icon: Code,
   },
   {
@@ -34,13 +34,13 @@ const services = [
   {
     slug: "full-stack-architecture",
     name: "Full Stack Architecture",
-    description: "End-to-end solutions span frontend to deployment. Auto CI/CD pipelines and monitoring deliver reliable releases, powering business-development success!!!!0K",
+    description: "End-to-end solutions span frontend to deployment. Auto CI/CD pipelines and monitoring deliver reliable releases, powering business-development success!!!!",
     icon: RefreshCw,
   },
   {
     slug: "business-development",
-    name: "Business Development Consulting",
-    description: "Accelerate business-development with strategic consulting. We help tech companies expand market reach and optimize sales for innovative web products!!!!!!A!",
+    name: "Business Development",
+    description: "Accelerate business-development with strategic consulting. We help tech companies expand market reach and optimize sales for innovative web products!!!!!!",
     icon: TrendingUp,
   }
 ]
