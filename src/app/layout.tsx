@@ -14,10 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Edenic | Full Stack Development Agency</title>
+        <title>Edenic | Next.js & React Development Agency</title>
         <meta
           name="description"
-          content="Build modern web applications with our MERN stack experts. We craft scalable websites, APIs and dashboards for startups and enterprises."
+          content="Edenic's Next.js and React specialists build blazing-fast websites, scalable APIs and intuitive dashboards on reliable cloud infrastructure."
         />
       </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
