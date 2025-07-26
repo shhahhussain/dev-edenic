@@ -28,16 +28,35 @@ export default function Pricing() {
               className="group bg-card dark:bg-gray-800/50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-border dark:border-gray-700 md:col-span-1 lg:col-span-2"
             >
               <div className="p-8 flex flex-col h-full">
-                <h2 className="text-2xl font-bold text-foreground dark:text-gray-100 mb-4 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-300">Landing Page</h2>
+                <h2 className="text-2xl font-bold text-foreground dark:text-gray-100 mb-4 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-300">Simple Landing Page</h2>
                 <ul className="space-y-2 text-muted-foreground dark:text-gray-300 mb-6 flex-grow">
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Single-page site</li>
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Deployed & hosted</li>
                 </ul>
-                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$499</div>
+                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$2,000</div>
                 <div className="text-sm text-muted-foreground dark:text-gray-400 mb-6">Perfect for product launches.</div>
                 <Button>Choose Plan</Button>
               </div>
             </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.05 }}
+                className="group bg-card dark:bg-gray-800/50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-border dark:border-gray-700 md:col-span-1 lg:col-span-2"
+              >
+                <div className="p-8 flex flex-col h-full">
+                  <h2 className="text-2xl font-bold text-foreground dark:text-gray-100 mb-4 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-300">Frontend MVP Showcase</h2>
+                  <ul className="space-y-2 text-muted-foreground dark:text-gray-300 mb-6 flex-grow">
+                    <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Responsive multi-page site</li>
+                    <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Deployed & hosted</li>
+                    <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Basic analytics</li>
+                  </ul>
+                  <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$2,500</div>
+                  <div className="text-sm text-muted-foreground dark:text-gray-400 mb-6">Showcase your business idea.</div>
+                  <Button>Choose Plan</Button>
+                </div>
+              </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -46,13 +65,13 @@ export default function Pricing() {
               className="group bg-card dark:bg-gray-800/50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-border dark:border-gray-700 md:col-span-1 lg:col-span-2"
             >
               <div className="p-8 flex flex-col h-full">
-                <h2 className="text-2xl font-bold text-foreground dark:text-gray-100 mb-4 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-300">Business Website + Admin Panel</h2>
+                <h2 className="text-2xl font-bold text-foreground dark:text-gray-100 mb-4 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-300">Business Website & Admin Panel</h2>
                  <ul className="space-y-2 text-muted-foreground dark:text-gray-300 mb-6 flex-grow">
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Multi-page site</li>
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Admin dashboard</li>
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Basic auth</li>
                 </ul>
-                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$899</div>
+                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$4,000</div>
                 <div className="text-sm text-muted-foreground dark:text-gray-400 mb-6">Ideal for growing businesses.</div>
                  <Button>Choose Plan</Button>
               </div>
@@ -65,13 +84,13 @@ export default function Pricing() {
               className="group bg-card dark:bg-gray-800/50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-border dark:border-gray-700 md:col-span-1 lg:col-span-2"
             >
               <div className="p-8 flex flex-col h-full">
-                <h2 className="text-2xl font-bold text-foreground dark:text-gray-100 mb-4 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-300">Full Stack SaaS/MVP Dev</h2>
+                <h2 className="text-2xl font-bold text-foreground dark:text-gray-100 mb-4 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-300">Full Stack SaaS / MVP Dev</h2>
                 <ul className="space-y-2 text-muted-foreground dark:text-gray-300 mb-6 flex-grow">
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Complete MERN stack</li>
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Deployment included</li>
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> API & auth</li>
                 </ul>
-                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$1499</div>
+                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$10,000+</div>
                 <div className="text-sm text-muted-foreground dark:text-gray-400 mb-6">Launch-ready SaaS solution.</div>
                  <Button>Choose Plan</Button>
               </div>
@@ -90,7 +109,7 @@ export default function Pricing() {
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Logging & Monitoring</li>
                   <li className="flex items-center"><CheckCircle className="text-blue-500 mr-2" /> Security & Compliance</li>
                 </ul>
-                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$100 – $1,000+/mo</div>
+                <div className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">$200 – $1,000+/mo</div>
                 <div className="text-sm text-muted-foreground dark:text-gray-400 mb-6">Choose only what you need.</div>
                  <Button>Customize</Button>
               </div>
