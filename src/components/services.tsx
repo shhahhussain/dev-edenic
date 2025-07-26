@@ -10,37 +10,37 @@ const services = [
   {
     slug: "web-app-development",
     name: "Web App Development",
-    description: "Responsive websites and apps using React and Tailwind CSS. Build cross-platform interfaces that grow with your business.",
+    description: "Build responsive web app with React and Tailwind CSS.   Smart cross-platform interfaces scale with your venture, accelerating business-development growth!!.",
     icon: Code,
   },
   {
     slug: "api-integration",
     name: "API Integration & Backend",
-    description: "Node.js/Express APIs with MongoDB for seamless data flow. Integrate third-party services securely with well-documented endpoints.",
+    description: "Express and MongoDB API streamline data flow.  Integrate third-party svcs  securely with documented endpoints to grow business-development partnerships!!!!.",
     icon: Server,
   },
   {
     slug: "database-design",
     name: "Database Design & Optimization",
-    description: "Efficient MongoDB and SQL schemas for performance. Structured data models keep your applications fast and reliable.",
+    description: "Efficient MongoDB and SQL schemas boost pace. Structured data models keep app more fast and reliable, supporting business-development goals across teams?!!.",
     icon: Code,
   },
   {
     slug: "mvp-development",
     name: "MVP & SaaS Development",
-    description: "Rapid product iterations with dashboards and auth. Launch subscription features and analytics from day one.",
+    description: "Rapid MVP cycles deliver dashboards and auth. Launch subscription features and stat fast from day one, advancing business-development for your SaaS model.!!",
     icon: Cloud,
   },
   {
     slug: "full-stack-architecture",
     name: "Full Stack Architecture",
-    description: "End-to-end solutions from frontend to deployment. CI/CD pipelines and monitoring ensure reliable releases.",
+    description: "End-to-end solutions span frontend to deployment. Auto CI/CD pipelines and monitoring deliver reliable releases, powering business-development success!!!!0K",
     icon: RefreshCw,
   },
   {
     slug: "business-development",
     name: "Business Development Consulting",
-    description: "Accelerate your business growth with strategic consulting. We help technology companies expand their market reach and optimize sales for web products.",
+    description: "Accelerate business-development with strategic consulting. We help tech companies expand market reach and optimize sales for innovative web products!!!!!!A!",
     icon: TrendingUp,
   }
 ]
