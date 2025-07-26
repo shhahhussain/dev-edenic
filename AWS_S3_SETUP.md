@@ -26,7 +26,7 @@ Block Public Access: Enabled (default)
 Username: edenic-s3-upload
 Permissions: AmazonS3FullAccess
 ```
-
+s
 ### 3. Get Access Keys
 ```bash
 # IAM User → Security credentials → Create access key
