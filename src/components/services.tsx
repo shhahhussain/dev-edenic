@@ -10,31 +10,31 @@ const services = [
   {
     slug: "web-app-development",
     name: "Web App Development",
-    description: "Responsive websites and apps using React and Tailwind CSS.",
+    description: "Responsive websites and apps using React and Tailwind CSS. Build cross-platform interfaces that grow with your business.",
     icon: Code,
   },
   {
     slug: "api-integration",
     name: "API Integration & Backend",
-    description: "Node.js/Express APIs with MongoDB for seamless data flow.",
+    description: "Node.js/Express APIs with MongoDB for seamless data flow. Integrate third-party services securely with well-documented endpoints.",
     icon: Server,
   },
   {
     slug: "database-design",
     name: "Database Design & Optimization",
-    description: "Efficient MongoDB and SQL schemas for performance.",
+    description: "Efficient MongoDB and SQL schemas for performance. Structured data models keep your applications fast and reliable.",
     icon: Code,
   },
   {
     slug: "mvp-development",
     name: "MVP & SaaS Development",
-    description: "Rapid product iterations with dashboards and auth.",
+    description: "Rapid product iterations with dashboards and auth. Launch subscription features and analytics from day one.",
     icon: Cloud,
   },
   {
     slug: "full-stack-architecture",
     name: "Full Stack Architecture",
-    description: "End-to-end solutions from frontend to deployment.",
+    description: "End-to-end solutions from frontend to deployment. CI/CD pipelines and monitoring ensure reliable releases.",
     icon: RefreshCw,
   },
   {
