@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation"
-import { Cloud, Server, Code, RefreshCw, Users, TrendingUp } from "lucide-react"
+import { Cloud, Server, Code, RefreshCw, TrendingUp } from "lucide-react"
 import { Button } from "../../../components/ui/button"
 import Image from "next/image"
 
@@ -9,7 +9,7 @@ const services = [
     name: "Web App Development",
     description: "Responsive websites and apps using React and Tailwind CSS.",
     icon: Code,
-    details: "We build modern interfaces with React and Tailwind CSS backed by Node.js services for a complete experience.",
+    details: "We build modern interfaces with React and Tailwind CSS backed by Node.js services for a complete experience. Our developers follow best practices for accessibility and maintainability, delivering responsive apps that scale with your business.",
     features: [
       "React component architecture",
       "Tailwind CSS styling",
@@ -32,7 +32,7 @@ const services = [
     name: "API Integration & Backend",
     description: "Node.js/Express APIs with MongoDB for seamless data flow.",
     icon: Server,
-    details: "We craft secure REST APIs and handle authentication, database connections and third-party integrations.",
+    details: "We craft secure REST APIs and handle authentication, database connections and third-party integrations. Our engineers design reliable backend architectures and provide detailed documentation to keep your data flowing smoothly.",
     features: [
       "REST/GraphQL endpoints",
       "Authentication & authorization",
@@ -55,7 +55,7 @@ const services = [
     name: "Database Design & Optimization",
     description: "Efficient MongoDB and SQL schemas for performance.",
     icon: Code,
-    details: "We design reliable data models and tune queries for high performance and scalability.",
+    details: "We design reliable data models and tune queries for high performance and scalability. Our team sets up backup strategies and monitors databases to keep your data safe and accessible.",
     features: [
       "Schema design",
       "Index optimization",
@@ -78,7 +78,7 @@ const services = [
     name: "MVP & SaaS Development",
     description: "Rapid product iterations with dashboards and auth.",
     icon: Cloud,
-    details: "Launch your product quickly with secure authentication, billing integration and cloud deployment.",
+    details: "Launch your product quickly with secure authentication, billing integration and cloud deployment. From initial prototype to production, we iterate quickly while maintaining strong security practices. Cloud-native deployments keep your SaaS flexible and reliable.",
     features: [
       "User authentication",
       "Admin dashboard",
@@ -101,7 +101,7 @@ const services = [
     name: "Full Stack Architecture",
     description: "End-to-end solutions from frontend to deployment.",
     icon: RefreshCw,
-    details: "We design scalable architectures, build REST APIs and ensure smooth deployments with best practices.",
+    details: "We design scalable architectures, build REST APIs and ensure smooth deployments with best practices. Our process incorporates code reviews, automated testing and monitoring so your stack is ready for future growth.",
     features: [
       "Architecture planning",
       "Continuous deployment",
@@ -124,7 +124,7 @@ const services = [
     name: "Business Development Consulting",
     description: "Accelerate your business growth with strategic consulting. We help technology companies expand market reach and optimize sales for web products.",
     icon: TrendingUp,
-    details: "Our consulting services help tech companies grow through strategic market expansion, sales optimization and lasting client relationships in the web development industry.",
+    details: "Our consulting services help tech companies grow through strategic market expansion, sales optimization and lasting client relationships in the web development industry. We analyze trends, refine your sales funnel and identify partnerships to unlock sustainable revenue.",
     features: [
       "Market analysis and strategy",
       "Sales process optimization",
@@ -141,29 +141,6 @@ const services = [
     ],
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
     imageAlt: "Business development strategy meeting"
-  },
-  {
-    slug: "offshore-teams",
-    name: "Offshore Teams",
-    description: "Access skilled full stack developers to scale your projects quickly and cost effectively.",
-    icon: Users,
-    details: "We recruit and manage remote engineers so you can focus on building great products.",
-    features: [
-      "Skilled professional recruitment",
-      "Team management",
-      "Training and development",
-      "Quality assurance",
-      "Cost-effective solutions"
-    ],
-    benefits: [
-      "Cost savings",
-      "Access to global talent",
-      "Scalable team size",
-      "24/7 operations",
-      "Focus on core business"
-    ],
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
-    imageAlt: "Global team collaboration"
   }
 ]
 
