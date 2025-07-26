@@ -1,6 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
-import { Cloud, Server, Code, RefreshCw, Users, TrendingUp } from "lucide-react"
+import { Cloud, Server, Code, RefreshCw, TrendingUp } from "lucide-react"
 import { Button } from "./ui/button"
 import Link from "next/link"
 import ServiceConnectors from "./ServiceConnectors"
@@ -42,13 +42,7 @@ const services = [
     name: "Business Development Consulting",
     description: "Accelerate your business growth with strategic consulting. We help technology companies expand their market reach and optimize sales for web products.",
     icon: TrendingUp,
-  },
-  {
-    slug: "offshore-teams",
-    name: "Offshore Teams",
-    description: "Access skilled full stack developers to scale your projects quickly and cost effectively.",
-    icon: Users,
-  },
+  }
 ]
 
 export default function Services() {
